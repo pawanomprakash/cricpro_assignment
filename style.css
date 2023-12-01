@@ -4,13 +4,13 @@
   margin-left: 200px;
   margin-right: 200px;
   font-family: 'Nunito Sans', sans-serif;
-  position: ;
+  
 
 } 
 .flexbox{
   display: flex;
   flex-direction: column;
-  position: ;
+  
 }
 h1{
   text-shadow: 2px 2px 3px grey;
@@ -95,3 +95,18 @@ a{
 #heading{
   background-color: whitesmoke
 }
+#name{
+  cursor: pointer;
+  color: blue;
+}
+.popup{
+  display: none;
+  position: absolute;
+}
+#DND{
+  display: flex;
+}
+/* .popup.display{
+  display: block;
+  position: absolute;
+} */
